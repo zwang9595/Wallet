@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Test1</string>
+    <string name="button1">Map</string>
+    <string name="button2">Category</string>
+    <string name="button3">Detailer</string>
+    <string name="button4">User</string>
+    <string name="back1"></string>
+    <string name="signout">Sign Out</string>\
+    <string name="username">Guest</string>
+    <string name="title_activity_login_test">Sign in</string>
+    <string name="prompt_email">Username</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Username must between 1-12 characters</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="guest_in">Guest</string>
+    <string name="tools">Tools</string>
+    <string name="setting">Setting</string>
+    <string name="about1">\u0020 \u0020Version 1.0 Log</string>
+    <string name="help1">\u0020\u0020 Q \u0026 A</string>
+    <string name="help2">\u0020\u0020 Contact Us</string>
+    <string name="profile">\u0020\u0020 Profile</string>
+    <string name="usernameA">\u0020\u0020 Username</string>
+    <string name="emailA">\u0020\u0020 Email</string>
+    <string name="passwordA">\u0020\u0020 Password</string>
+    <string name="email">#NA</string>
+    <string name="passwordS">*****</string>
+</resources>

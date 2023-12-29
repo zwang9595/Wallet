@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/common_google_signin_btn_text_light_disabled"
+    tools:context=".Setting.Account">
+
+    <Button
+        android:id="@+id/profileA"
+        android:layout_width="364dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/rounded_rect"
+        android:text="@string/profile"
+        android:textAllCaps="false"
+        android:stateListAnimator="@null"
+        android:textColor="@android:color/black"
+        android:textSize="23dp"
+        android:enabled="false"
+        android:textAlignment="viewStart"
+        android:layout_gravity = "start"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/profileS"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="245dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/round_button"
+        android:scaleType="fitCenter"
+        android:src="@drawable/profile"
+        app:layout_constraintStart_toStartOf="@id/profileA"
+        app:layout_constraintTop_toTopOf="@id/profileA" />
+
+    <ImageButton
+        android:id="@+id/profileb"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="325dp"
+        android:layout_marginTop="23dp"
+        android:background="@android:color/transparent"
+        android:scaleType="fitCenter"
+        android:src="@drawable/arrow"
+        app:layout_constraintStart_toStartOf="@id/profileA"
+        app:layout_constraintTop_toTopOf="@id/profileA" />
+
+    <Button
+        android:id="@+id/usernameA"
+        android:layout_width="364dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="95dp"
+        android:background="@drawable/rounded_rect"
+        android:text="@string/usernameA"
+        android:textAllCaps="false"
+        android:stateListAnimator="@null"
+        android:textColor="@android:color/black"
+        android:textSize="23dp"
+        android:enabled="false"
+        android:textAlignment="viewStart"
+        android:layout_gravity = "start"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/profileA" />
+
+    <TextView
+        android:id="@+id/usernameS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/username"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="19dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.8"
+        app:layout_constraintStart_toStartOf="@id/usernameA"
+        app:layout_constraintTop_toTopOf="@id/usernameA" />
+
+    <ImageButton
+        android:id="@+id/usernameb"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="325dp"
+        android:layout_marginTop="18dp"
+        android:background="@android:color/transparent"
+        android:scaleType="fitCenter"
+        android:src="@drawable/arrow"
+        app:layout_constraintStart_toStartOf="@id/usernameA"
+        app:layout_constraintTop_toTopOf="@id/usernameA" />
+
+    <Button
+        android:id="@+id/emailA"
+        android:layout_width="364dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="85dp"
+        android:background="@drawable/rounded_rect"
+        android:text="@string/emailA"
+        android:textAllCaps="false"
+        android:stateListAnimator="@null"
+        android:textColor="@android:color/black"
+        android:textSize="23dp"
+        android:enabled="false"
+        android:textAlignment="viewStart"
+        android:layout_gravity = "start"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/usernameA" />
+
+    <TextView
+        android:id="@+id/emailS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="23dp"
+        android:text="@string/email"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="19dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.8"
+        app:layout_constraintStart_toStartOf="@id/emailA"
+        app:layout_constraintTop_toTopOf="@id/emailA" />
+
+    <ImageButton
+        android:id="@+id/emailb"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="325dp"
+        android:layout_marginTop="18dp"
+        android:background="@android:color/transparent"
+        android:scaleType="fitCenter"
+        android:src="@drawable/arrow"
+        app:layout_constraintStart_toStartOf="@id/emailA"
+        app:layout_constraintTop_toTopOf="@id/emailA" />
+
+    <Button
+        android:id="@+id/passwordA"
+        android:layout_width="364dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="85dp"
+        android:background="@drawable/rounded_rect"
+        android:text="@string/passwordA"
+        android:textAllCaps="false"
+        android:stateListAnimator="@null"
+        android:textColor="@android:color/black"
+        android:textSize="23dp"
+        android:enabled="false"
+        android:textAlignment="viewStart"
+        android:layout_gravity = "start"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/emailA" />
+
+    <TextView
+        android:id="@+id/passwordS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="25dp"
+        android:text="@string/passwordS"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="19dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.8"
+        app:layout_constraintStart_toStartOf="@id/passwordA"
+        app:layout_constraintTop_toTopOf="@id/passwordA" />
+
+    <ImageButton
+        android:id="@+id/passwordb"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="325dp"
+        android:layout_marginTop="18dp"
+        android:background="@android:color/transparent"
+        android:scaleType="fitCenter"
+        android:src="@drawable/arrow"
+        app:layout_constraintStart_toStartOf="@id/passwordA"
+        app:layout_constraintTop_toTopOf="@id/passwordA" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
